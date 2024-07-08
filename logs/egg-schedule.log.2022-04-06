@@ -1,0 +1,9 @@
+2022-04-07 03:17:05,270 INFO 58724 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 4374751ms at 2022-04-07 04:30:00.021
+2022-04-07 03:17:05,261 INFO 66039 [Job#16492726252432115344228025001] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2022-04-07 03:17:05,275 INFO 66039 [Job#16492726252432115344228025001] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 14ms. 
+2022-04-07 03:18:52,573 INFO 66039 [Job#16492727325702115947174513752] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2022-04-07 03:18:52,592 INFO 58724 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 74467429ms at 2022-04-08 00:00:00.020
+2022-04-07 03:18:52,596 INFO 66039 [Job#16492727325702115947174513752] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 23ms. 
+2022-04-07 03:18:53,575 INFO 66039 [Job#16492727335722115957192774582] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2022-04-07 03:18:53,591 INFO 66039 [Job#16492727335722115957192774582] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 16ms. 
+2022-04-07 03:18:53,587 INFO 58724 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 74467428ms at 2022-04-08 00:00:01.015

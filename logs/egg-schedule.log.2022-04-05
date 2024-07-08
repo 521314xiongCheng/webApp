@@ -1,0 +1,108 @@
+2022-03-21 04:43:46,714 INFO 19738 [Job#16478090267124688846370741253] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2022-03-21 04:43:46,717 INFO 19738 [Job#16478090267124688846370741253] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 3ms. 
+2022-03-21 04:43:46,714 INFO 19735 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 85573288ms at 2022-03-22 04:30:00.002
+2022-03-21 10:27:24,246 INFO 24701 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 64955756ms at 2022-03-22 04:30:00.002
+2022-03-21 10:27:24,246 INFO 24701 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 48755754ms at 2022-03-22 00:00:00.000
+2022-03-21 10:27:24,246 INFO 24701 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 48756754ms at 2022-03-22 00:00:01.000
+2022-03-21 10:27:24,165 INFO 24705 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-21 10:27:24,166 INFO 24705 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-21 10:27:24,166 INFO 24705 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-22 09:57:40,340 INFO 1936 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-22 09:57:40,341 INFO 1936 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-22 09:57:40,341 INFO 1936 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-22 09:57:40,674 INFO 1934 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 66739346ms at 2022-03-23 04:30:00.020
+2022-03-22 09:57:40,675 INFO 1934 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 50539325ms at 2022-03-23 00:00:00.000
+2022-03-22 09:57:40,676 INFO 1934 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 50540325ms at 2022-03-23 00:00:01.001
+2022-03-22 10:19:35,493 INFO 2343 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-22 10:19:35,494 INFO 2343 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-22 10:19:35,494 INFO 2343 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-22 10:19:35,856 INFO 2342 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65424164ms at 2022-03-23 04:30:00.020
+2022-03-22 10:19:35,857 INFO 2342 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49224143ms at 2022-03-23 00:00:00.000
+2022-03-22 10:19:35,857 INFO 2342 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49225143ms at 2022-03-23 00:00:01.000
+2022-03-23 14:13:43,682 INFO 11621 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-23 14:13:43,682 INFO 11621 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-23 14:13:43,682 INFO 11621 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-23 14:13:43,998 INFO 11620 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 51376023ms at 2022-03-24 04:30:00.020
+2022-03-23 14:13:43,999 INFO 11620 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 35176002ms at 2022-03-24 00:00:00.001
+2022-03-23 14:13:43,999 INFO 11620 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35177001ms at 2022-03-24 00:00:01.000
+2022-03-24 10:10:33,952 INFO 1774 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-24 10:10:33,952 INFO 1774 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-24 10:10:33,952 INFO 1774 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-24 10:10:34,312 INFO 1773 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65965709ms at 2022-03-25 04:30:00.020
+2022-03-24 10:10:34,312 INFO 1773 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49765688ms at 2022-03-25 00:00:00.000
+2022-03-24 10:10:34,313 INFO 1773 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49766688ms at 2022-03-25 00:00:01.001
+2022-03-24 10:13:14,038 INFO 1903 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-24 10:13:14,038 INFO 1903 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-24 10:13:14,038 INFO 1903 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-29 09:58:01,209 INFO 8683 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-29 09:58:01,209 INFO 8683 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-29 09:58:01,209 INFO 8683 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-29 09:58:01,556 INFO 8682 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 66718465ms at 2022-03-30 04:30:00.020
+2022-03-29 09:58:01,557 INFO 8682 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 50518443ms at 2022-03-30 00:00:00.000
+2022-03-29 09:58:01,557 INFO 8682 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 50519443ms at 2022-03-30 00:00:01.000
+2022-03-29 10:00:07,393 INFO 8911 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-29 10:00:07,393 INFO 8911 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-29 10:00:07,393 INFO 8911 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-29 10:05:43,638 INFO 9427 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-29 10:05:43,638 INFO 9427 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-29 10:05:43,638 INFO 9427 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-29 10:05:58,396 INFO 9459 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-29 10:05:58,397 INFO 9459 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-29 10:05:58,397 INFO 9459 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-29 10:06:29,526 INFO 9514 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-29 10:06:29,526 INFO 9514 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-29 10:06:29,526 INFO 9514 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-29 14:21:46,645 INFO 15321 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-29 14:21:46,645 INFO 15321 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-29 14:21:46,645 INFO 15321 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-29 14:21:47,016 INFO 15320 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50893005ms at 2022-03-30 04:30:00.020
+2022-03-29 14:21:47,017 INFO 15320 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34692983ms at 2022-03-30 00:00:00.000
+2022-03-29 14:21:47,017 INFO 15320 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34693983ms at 2022-03-30 00:00:01.000
+2022-03-29 14:59:05,704 INFO 16756 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-29 14:59:05,704 INFO 16756 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-29 14:59:05,704 INFO 16756 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-30 17:26:02,427 INFO 30650 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-30 17:26:02,427 INFO 30650 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-30 17:26:02,427 INFO 30650 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-30 17:26:02,806 INFO 30646 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39837218ms at 2022-03-31 04:30:00.023
+2022-03-30 17:26:02,807 INFO 30646 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23637193ms at 2022-03-31 00:00:00.000
+2022-03-30 17:26:02,807 INFO 30646 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23638193ms at 2022-03-31 00:00:01.000
+2022-03-31 10:35:56,184 INFO 35939 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-31 10:35:56,184 INFO 35939 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-31 10:35:56,184 INFO 35939 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-31 10:35:56,563 INFO 35925 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 64443461ms at 2022-04-01 04:30:00.023
+2022-03-31 10:35:56,563 INFO 35925 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 48243437ms at 2022-04-01 00:00:00.000
+2022-03-31 10:35:56,564 INFO 35925 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 48244437ms at 2022-04-01 00:00:01.001
+2022-03-31 14:04:59,377 INFO 38977 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-31 14:04:59,377 INFO 38977 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-31 14:04:59,377 INFO 38977 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-31 14:17:21,388 INFO 39342 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-31 14:17:21,388 INFO 39342 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-31 14:17:21,388 INFO 39342 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-31 14:17:33,769 INFO 39363 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-31 14:17:33,769 INFO 39363 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-31 14:17:33,769 INFO 39363 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-31 17:01:36,739 INFO 47176 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-31 17:01:36,739 INFO 47176 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-31 17:01:36,739 INFO 47176 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-04-01 10:19:59,400 INFO 51246 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-04-01 10:19:59,401 INFO 51246 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-04-01 10:19:59,401 INFO 51246 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-04-01 10:19:59,782 INFO 51242 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65400241ms at 2022-04-02 04:30:00.022
+2022-04-01 10:19:59,782 INFO 51242 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49200218ms at 2022-04-02 00:00:00.000
+2022-04-01 10:19:59,783 INFO 51242 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49201218ms at 2022-04-02 00:00:01.001
+2022-04-04 10:04:29,305 INFO 58728 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-04-04 10:04:29,305 INFO 58728 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-04-04 10:04:29,305 INFO 58728 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-04-04 10:04:29,636 INFO 58724 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 66330384ms at 2022-04-05 04:30:00.019
+2022-04-04 10:04:29,637 INFO 58724 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 50130364ms at 2022-04-05 00:00:00.001
+2022-04-04 10:04:29,637 INFO 58724 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 50131363ms at 2022-04-05 00:00:01.000
+2022-04-06 10:28:44,671 INFO 66039 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-04-06 10:28:44,671 INFO 66039 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-04-06 10:28:44,671 INFO 66039 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-04-06 19:28:59,756 INFO 58724 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 16260262ms at 2022-04-07 00:00:00.017
+2022-04-06 19:28:59,774 INFO 66039 [Job#16492445397271953344287444591] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2022-04-06 19:28:59,860 INFO 66039 [Job#16492445397271953344287444591] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 74ms. 
+2022-04-06 19:29:00,713 INFO 66039 [Job#16492445407001953353979657091] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2022-04-06 19:29:00,735 INFO 66039 [Job#16492445407001953353979657091] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 17ms. 
+2022-04-06 19:29:00,719 INFO 58724 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16260299ms at 2022-04-07 00:00:01.018

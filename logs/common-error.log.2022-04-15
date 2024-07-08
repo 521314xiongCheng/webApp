@@ -1,0 +1,100 @@
+2022-04-13 03:52:58,711 ERROR 925 nodejs.ClusterClientNoResponseError: client no response in 1005750ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 925
+hostname: xiongchengdeMacBook-Pro.local
+
+2022-04-13 11:05:00,946 ERROR 925 nodejs.ClusterClientNoResponseError: client no response in 936199ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 925
+hostname: xiongchengdeMacBook-Pro.local
+
+2022-04-13 12:11:12,103 ERROR 925 nodejs.ClusterClientNoResponseError: client no response in 3971135ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 925
+hostname: xiongchengdeMacBook-Pro.local
+
+2022-04-13 13:01:46,032 ERROR 925 nodejs.ClusterClientNoResponseError: client no response in 3033922ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 925
+hostname: xiongchengdeMacBook-Pro.local
+
+2022-04-13 13:50:42,920 ERROR 925 nodejs.ClusterClientNoResponseError: client no response in 2936882ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 925
+hostname: xiongchengdeMacBook-Pro.local
+
+2022-04-13 14:39:52,776 ERROR 925 nodejs.ClusterClientNoResponseError: client no response in 2949848ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 925
+hostname: xiongchengdeMacBook-Pro.local
+
+2022-04-13 17:56:37,509 ERROR 925 nodejs.ClusterClientNoResponseError: client no response in 1006731ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 925
+hostname: xiongchengdeMacBook-Pro.local
+
+2022-04-15 12:54:59,033 ERROR 7224 nodejs.ClusterClientNoResponseError: client no response in 975486ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 7224
+hostname: xiongchengdeMacBook-Pro.local
+
+2022-04-15 13:10:47,952 ERROR 7224 nodejs.ClusterClientNoResponseError: client no response in 928908ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 7224
+hostname: xiongchengdeMacBook-Pro.local
+
+2022-04-15 13:13:33,146 ERROR 7224 nodejs.ClusterClientNoResponseError: client no response in 125181ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 7224
+hostname: xiongchengdeMacBook-Pro.local
+

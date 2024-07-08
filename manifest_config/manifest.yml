@@ -1,0 +1,17 @@
+---
+applications:
+- name: xxxxxxx
+  instances: 1
+  memory: 256M
+  disk_quota: 1000M
+  stack: cflinuxfs3
+  buildpack: nodejs_buildpack_mkc10
+  command: npm start
+  health-check-type: http
+  health-check-http-endpoint: /healthcheck
+  env:
+    EGG_SERVER_ENV: "dev"
+    NODE_ENV: "dev"
+    GIT_HASH: "xxx-xxx-xxx"
+    AppName: "xxxxxxx"
+    NODE_TLS_REJECT_UNAUTHORIZED: 0

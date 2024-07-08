@@ -1,0 +1,294 @@
+<template>
+  <div class="search-wrap" :class="{ isAndroid: !isIos }">
+    <div class="search-bar">
+      <img
+        class="back_btn"
+        @click="back"
+        src="../../images/search_back.png"
+        alt=""
+      />
+      <van-search
+        v-model.trim="filter.search"
+        show-action
+        placeholder="请输入姓名/手机号/12位编号搜索"
+        @search="onSearch"
+        autofocus
+        class="table-search"
+      >
+        <template #left-icon>
+          <img
+            class="icon-input-search"
+            src="../../images/icon_input_search.png"
+            alt=""
+          />
+        </template>
+      </van-search>
+    </div>
+    <div style="width: 100%; height: 10px; background-color: #f5f5f5"></div>
+    <!--  -->
+    <div class="contact-box">
+      <div
+        class="contact"
+        v-for="(item, index) in searchMembers"
+        :key="index"
+        @click="goProfile(item.contactId, item.careerLevelCode)"
+      >
+        <div class="contact-icon">
+          <img
+            class="avatar"
+            :src="
+              `https://consultant-ecard-api-external-latest.prod.pcf.mkc.io/v1/user/${item.contactId}/avatar?size=60`
+            "
+            alt=""
+            width="100%"
+          />
+        </div>
+        <div class="contact-peo">
+          <div class="contact-peo-name">{{ item.name }}</div>
+          <div class="contact-peo-list">
+            <span>{{ item.careerLevelCode }}</span>
+            <span class="line"></span>
+            <span>{{ item.activityStatusCode }}</span>
+            <span class="line"></span>
+            <span>绩效 ¥{{ item.currentMonthProduction }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="no_data" v-if="isNoData">
+      <div>
+        <img class="table-empty__bg" src="../../images/nodata.png" alt="" />
+      </div>
+      未查询到“ <span class="is_active">{{ keyword }}</span> ”的数据
+    </div>
+  </div>
+</template>
+<script>
+import {
+  Search,
+  Button,
+  Icon,
+  ActionSheet,
+  NavBar,
+  Dialog,
+  Collapse,
+  CollapseItem,
+} from "vant";
+import {
+  isIos,
+  closeWebview,
+  xxxxxx,
+  formatMoney,
+  deepCopy,
+  isIphoneX,
+} from "../../utils/index";
+
+export default {
+  data() {
+    return {
+      members: [],
+      searchMembers: [],
+      isIphoneX: isIphoneX(),
+      isIos: isIos(),
+      filter: {
+        search: "",
+      },
+      isNoData: false,
+      impersonatedContactId: "",
+      keyword: "",
+    };
+  },
+  mounted() {
+    this.loadAll();
+  },
+  methods: {
+    onSearch() {
+      this.$track({
+        context: "ButtonTab",
+        behavior: "ContactsSearchIconClick",
+        item_type: "ButtonTab",
+        item_id: "ContactsSearchIconClick",
+        attributes: {
+          search_content: this.filter.search,
+        },
+      });
+      this.searchMembers = this.members.filter((item) => {
+        return (
+          item.directSellerId.toString().indexOf(this.filter.search) > -1 ||
+          item.mobile.toString().indexOf(this.filter.search) > -1 ||
+          item.name.toString().indexOf(this.filter.search) > -1
+        );
+      });
+      if (this.searchMembers.length) {
+        this.isNoData = false;
+      } else {
+        this.keyword = this.filter.search;
+        this.isNoData = true;
+      }
+    },
+    goBir() {
+      this.$jsBridge.openSchema(
+        `mk:///Intouch?appId=MyContacts&pageId=myContactsBirth`
+      );
+    },
+
+    back() {
+      closeWebview();
+    },
+    goProfile(id, levelCode) {
+      let url = `${window.location.origin}/profile`;
+      const params = {
+        opaque: false,
+        targetContactId: id,
+        levelCode: levelCode,
+          //跟进人
+        followed:this.$route.query.targetContactId
+      };
+
+      this.$go(url, params);
+    },
+    async loadAll() {
+      let baseApi = this.$ctx.baseApiList.contact;
+      this.impersonatedContactId = this.$ctx.targetContactId;
+      const params = {
+        search: this.filter.search,
+      };
+
+      const res = await this.$request.get(`${baseApi}/members`, {
+        headers: {
+          impersonatedContactId: this.impersonatedContactId,
+        },
+        params,
+      });
+      console.log("res", res.data);
+      // this.list = res.data;
+      Object.keys(res.data).forEach((item) => {
+        this.members = this.members.concat(res.data[item]);
+      });
+      const map = new Map();
+      this.members = this.members.filter(
+        (member) => !map.has(member.contactId) && map.set(member.contactId, 1)
+      );
+    },
+  },
+  components: {
+    "van-search": Search,
+    "van-collapse": Collapse,
+    "van-collapse-item": CollapseItem,
+    NavBar,
+  },
+};
+</script>
+<style lang="less" scoped>
+/deep/.van-collapse-item__content {
+  padding: 8px 30px;
+}
+.search-wrap {
+  overflow: hidden;
+  margin-top: 55px;
+  .search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    .back_btn {
+      width: 20px;
+      height: 36px;
+      margin-left: 42px;
+    }
+    .van-search__content {
+      display: flex;
+      align-items: center;
+      height: 70px;
+      width: 568px;
+      background-color: #f5f5f5;
+      border-radius: 35px;
+      /deep/.van-field__control {
+        font-size: 30px;
+      }
+    }
+  }
+  .search-bar .search-bar__btn {
+    width: 15.47vw;
+    text-align: center;
+  }
+}
+/deep/ .van-cell__title {
+  font-size: 30px;
+}
+/deep/.van-cell__title span {
+  font-size: 30px;
+  color: #7f7f7f;
+}
+/deep/.van-cell {
+  padding: 29px 15px;
+}
+/deep/.van-collapse-item--border:after {
+  right: 0px;
+  left: 0px;
+}
+/deep/.van-cell:after {
+  border: 0px;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.contact {
+  display: flex;
+  // margin-top: 5px;
+  // margin-bottom: 10px;
+  padding: 15px 30px;
+  &-icon {
+    width: 80px;
+    margin-right: 30px;
+  }
+  &-peo {
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 10px;
+    &-name {
+      color: black;
+      font-size: 30px;
+      padding-top: 5px;
+    }
+    &-list {
+      margin-top: 5px;
+      font-size: 26px;
+    }
+  }
+}
+.line {
+  width: 1px;
+  height: 20px;
+  background: #ccc;
+  margin: 0px 10px;
+  display: inline-block;
+}
+.no_data {
+  padding: 10vw;
+  text-align: center;
+  color: #909399;
+}
+.no_data .table-empty__bg {
+  width: 53vw;
+  height: 32vw;
+  background-repeat: round;
+  background-size: cover;
+}
+.goBir img {
+  width: 69px;
+  height: 70px;
+}
+.contact-box > .contact:last-child > .contact-peo {
+  border-bottom: 0px;
+}
+.van-cell__right-icon {
+  margin-right: 15px;
+}
+.is_active {
+  color: #fe88a0 !important;
+}
+</style>

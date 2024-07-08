@@ -1,0 +1,52 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/getAccessToken",
+    "regexp": "/^\\/getAccessToken(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/healthcheck",
+    "regexp": "/^\\/healthcheck(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": 0,
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": true,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": ".+"
+      }
+    ],
+    "path": "/(.+)?",
+    "regexp": "/^(?:\\/((?:.+)))?(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  }
+]

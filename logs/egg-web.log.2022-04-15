@@ -1,0 +1,53 @@
+2022-04-13 02:10:10,795 INFO 955 [egg-logrotator] app logger reload: got log-reload message
+2022-04-13 03:52:58,711 WARN 955 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-13 09:40:04,235 INFO 31739 [egg:logger] init all loggers with options: {"dir":"/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Intouch-Coach-App-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-04-13 09:40:04,359 INFO 31739 [egg-multipart] stream mode enable
+2022-04-13 09:40:04,506 INFO 31739 [egg-static] starting static serve /public/ -> /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/public
+2022-04-13 09:40:04,518 INFO 31739 [egg-security] use methodnoallow middleware
+2022-04-13 09:40:04,518 INFO 31739 [egg-security] use noopen middleware
+2022-04-13 09:40:04,519 INFO 31739 [egg-security] use nosniff middleware
+2022-04-13 09:40:04,519 INFO 31739 [egg-security] use xssProtection middleware
+2022-04-13 09:40:04,520 INFO 31739 [egg-security] use dta middleware
+2022-04-13 09:40:04,520 INFO 31739 [egg-security] compose 5 middlewares into one security middleware
+2022-04-13 09:40:04,604 INFO 31739 [egg:core] dump config after load, 34ms
+2022-04-13 09:40:04,672 INFO 31739 [egg-watcher:application] watcher start success
+2022-04-13 09:40:04,690 INFO 31739 [egg:core] dump config after ready, 9ms
+2022-04-13 10:10:23,117 INFO 31739 [-/127.0.0.1/-/5ms SCHEDULE /__schedule?path=/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/77/8ymwjm5s57b8q201t5q513jh0000gn/T/egg-multipart-tmp/Intouch-Coach-App"
+2022-04-13 10:10:23,160 INFO 31739 [-/127.0.0.1/-/48ms SCHEDULE /__schedule?path=/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-04-13 11:05:00,954 WARN 31739 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-13 12:11:12,104 WARN 31739 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-13 13:01:46,032 WARN 31739 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-13 13:50:42,921 WARN 31739 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-13 14:39:52,776 WARN 31739 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-13 17:56:37,506 WARN 31739 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-15 10:46:41,771 INFO 7226 [egg:logger] init all loggers with options: {"dir":"/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Intouch-Coach-App-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-04-15 10:46:41,858 INFO 7226 [egg-multipart] stream mode enable
+2022-04-15 10:46:41,990 INFO 7226 [egg-static] starting static serve /public/ -> /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/public
+2022-04-15 10:46:41,997 INFO 7226 [egg-security] use methodnoallow middleware
+2022-04-15 10:46:41,997 INFO 7226 [egg-security] use noopen middleware
+2022-04-15 10:46:41,998 INFO 7226 [egg-security] use nosniff middleware
+2022-04-15 10:46:41,998 INFO 7226 [egg-security] use xssProtection middleware
+2022-04-15 10:46:41,998 INFO 7226 [egg-security] use dta middleware
+2022-04-15 10:46:41,998 INFO 7226 [egg-security] compose 5 middlewares into one security middleware
+2022-04-15 10:46:42,055 INFO 7226 [egg:core] dump config after load, 34ms
+2022-04-15 10:46:42,141 INFO 7226 [egg-watcher:application] watcher start success
+2022-04-15 10:46:42,158 INFO 7226 [egg:core] dump config after ready, 11ms
+2022-04-15 11:09:22,667 INFO 9945 [egg:logger] init all loggers with options: {"dir":"/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Intouch-Coach-App-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-04-15 11:09:22,761 INFO 9945 [egg-multipart] stream mode enable
+2022-04-15 11:09:22,911 INFO 9945 [egg-static] starting static serve /public/ -> /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/public
+2022-04-15 11:09:22,918 INFO 9945 [egg-security] use methodnoallow middleware
+2022-04-15 11:09:22,918 INFO 9945 [egg-security] use noopen middleware
+2022-04-15 11:09:22,919 INFO 9945 [egg-security] use nosniff middleware
+2022-04-15 11:09:22,919 INFO 9945 [egg-security] use xssProtection middleware
+2022-04-15 11:09:22,920 INFO 9945 [egg-security] use dta middleware
+2022-04-15 11:09:22,920 INFO 9945 [egg-security] compose 5 middlewares into one security middleware
+2022-04-15 11:09:22,971 INFO 9945 [egg:core] dump config after load, 30ms
+2022-04-15 11:09:23,042 INFO 9945 [egg-watcher:application] watcher start success
+2022-04-15 11:09:23,057 INFO 9945 [egg:core] dump config after ready, 10ms
+2022-04-15 12:54:59,033 WARN 9945 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-15 13:10:47,952 WARN 9945 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-15 13:13:33,146 WARN 9945 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-16 06:25:15,002 INFO 9945 [egg-logrotator] start remove /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/logs files: Intouch-Coach-App-web.log.2022-03-14, common-error.log.2022-03-14, egg-agent.log.2022-03-14, egg-schedule.log.2022-03-14, egg-web.log.2022-03-14
+2022-04-16 06:25:15,017 INFO 9945 [egg-logrotator] clean all log before 31 days
+2022-04-16 06:25:15,921 INFO 9945 [egg-logrotator] broadcast log-reload
+2022-04-16 06:25:15,921 INFO 9945 [egg-logrotator] rotate files success by DayRotator, files ["/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/logs/common-error.log -> /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/logs/common-error.log.2022-04-15","/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/logs/Intouch-Coach-App-web.log -> /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/logs/Intouch-Coach-App-web.log.2022-04-15","/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/logs/egg-web.log -> /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/logs/egg-web.log.2022-04-15","/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/logs/egg-schedule.log -> /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/logs/egg-schedule.log.2022-04-15","/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/logs/egg-agent.log -> /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/logs/egg-agent.log.2022-04-15"]

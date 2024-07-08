@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  // background-color: #EE4D9B;
+}
+a {
+  color: #3c8dbc;
+  text-decoration: none;
+}
+
+-webkit-scrollbar {
+  width: 4px;
+  background-color: #F5F5F5;
+}
+
+-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #3e8dbb;
+}
+
+/* 超出省略 */
+
+.whispace {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* 第二行省略 */
+
+.climp {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+// postcss导致图片不显示问题
+img {
+  content: normal!important;
+}
+.van-nav-bar {
+  z-index: 4;
+}
+
+
+.resetToPortraitScreen {
+  width: 97/7.5vh;
+  height: 97/7.5vh;
+  position: fixed;
+  right: 50/7.5vh;
+  bottom: 50/7.5vh;
+  z-index: 555;
+}
+
+.nodata{
+  font-size: 30px;
+  text-align: center;
+  color: #B2B2B2;
+  padding: 200px 0;
+  img{
+    width:375px;
+    margin: 30px auto;
+  }
+}
+.table-search {
+  .van-field {
+    align-items: center;
+  }
+  .van-field__left-icon {
+    // line-height: 0;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    align-items: center;
+  }
+  .icon-input-search {
+    width: 28px;
+    height: 28px;
+    display: block;
+    // margin-top: 3px;
+  }
+}
+.van-nav-bar__title {
+  font-size: 36px!important;
+}
+.el-table {
+  font-size: 24px;
+  // .sort-caret.ascending {
+  //   top: 5px;
+  // }
+  // .sort-caret.descending {
+  //   bottom: 7px;
+  // }
+  .cell {
+    line-height: 32px;
+  }
+  th.el-table__cell {
+    font-size: 26px;
+  }
+}
+.el-table td,.common-table .el-table th.is-leaf {
+  border: none;
+}
+.el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf{
+  border: none;
+}
+
+.van-pull-refresh__head {
+  height: 120px;
+  .refresh-text {
+    font-size: 24px;
+    line-height: 1;
+    margin: 0;
+    margin-top: 10px;
+    color: #f26899;
+    padding: 0;
+    text-align: center;
+  }
+  .refresh-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 0;
+    img {
+      width: 100%;
+      line-height: 1;
+    }
+  }
+}
+.default-color{
+  color: #f16eae;
+};

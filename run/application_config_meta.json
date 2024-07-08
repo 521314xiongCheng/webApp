@@ -1,0 +1,383 @@
+{
+  "siteFile": {
+    "/favicon.ico": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.default.js"
+  },
+  "vuessr": {
+    "layout": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.default.js",
+    "renderOptions": {
+      "basedir": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.default.js",
+      "runInNewContext": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view-vue-ssr/config/config.default.js"
+    },
+    "injectRes": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.default.js",
+    "doctype": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "manifest": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "injectHeadRegex": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "injectBodyRegex": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "injectCss": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view-vue-ssr/config/config.local.js",
+    "injectJs": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "crossorigin": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "mergeLocals": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "fallbackToClient": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "viewEngine": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "cache": {
+      "max": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view-vue-ssr/config/config.default.js",
+      "maxAge": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view-vue-ssr/config/config.default.js"
+    },
+    "afterRender": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view-vue-ssr/config/config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.default.js",
+    "dir": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.default.js",
+    "encoding": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "env": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "level": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.default.js",
+    "dir": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.default.js",
+    "maxAge": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.local.js",
+    "dynamic": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-static/config/config.default.js"
+  },
+  "keys": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.default.js",
+  "middleware": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.default.js",
+  "security": {
+    "csrf": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.default.js",
+      "value": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.local.js",
+    "protocolWhiteList": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js",
+    "hsts": {
+      "enable": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "env": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.local.js",
+  "baseApi": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.local.js",
+  "baseShareUrl": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.local.js",
+  "baseApiList": {
+    "income": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.local.js",
+    "contact": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.local.js",
+    "calc": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.local.js",
+    "consultant": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.local.js"
+  },
+  "view": {
+    "cache": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.local.js",
+    "root": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view/config/config.default.js",
+    "mapping": {
+      ".js": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-view-vue-ssr/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.local.js",
+    "ignoreDirs": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.local.js",
+    "fastReady": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-development/config/config.default.js"
+  },
+  "logview": {
+    "dir": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.local.js",
+    "prefix": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logview/config/config.default.js",
+    "staticHost": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logview/config/config.default.js"
+  },
+  "webpack": {
+    "browser": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/config/config.local.js",
+    "port": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-webpack/config/config.default.js",
+    "proxy": {
+      "host": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-webpack/config/config.default.js",
+      "match": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-webpack/config/config.default.js"
+    },
+    "webpackConfigList": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-webpack/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "proxy": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+  "cors": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-cors/config/config.default.js",
+  "name": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "version": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "description": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "start": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "debug": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "clean": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "build": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "lint": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "fix": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "ii": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "changelog": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "axios": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "compression-webpack-plugin": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "echarts": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "egg": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "egg-logger": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "egg-view-vue-ssr": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "el-table-infinite-scroll": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "element-ui": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "extend": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "file-saver": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "good-storage": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "html2canvas": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "js-audio-recorder": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "js-md5": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "lamejs": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "mkc-webview-api": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "moment": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "qs": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "resize-detector": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "sanitize.css": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "shortid": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "showdown": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "simplemde": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "vant": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "vue": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "vue-content-placeholders": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "vue-hot-reload-api": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "vue-i18n": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "vue-material-input": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "vue-router": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "vuex": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "vuex-router-sync": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "xlsx": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@easy-team/easywebpack-cli": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "@easy-team/easywebpack-vue": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "autoprefixer": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "aws-sdk": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "babel-plugin-component": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "babel-plugin-import": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-runtime": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "cssnano": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "egg-logview": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "egg-proxy": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "egg-webpack": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "egg-webpack-vue": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "eslint-plugin-vue": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "ip": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "less": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "less-loader": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "postcss-aspect-ratio-mini": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "postcss-normalize": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "postcss-px-to-viewport-opt": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "postcss-viewport-units": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "postcss-write-svg": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "read-yaml": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "script-loader": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "webpack-s3-plugin": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+    },
+    "webpack": {
+      "loaders": {
+        "less": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+      }
+    }
+  },
+  "baseDir": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "strict": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "depth": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "logging": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "port": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg/config/config.default.js"
+}

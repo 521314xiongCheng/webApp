@@ -1,0 +1,10 @@
+2022-04-06 23:01:58,371 ERROR 58724 nodejs.ClusterClientNoResponseError: client no response in 948845ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 58724
+hostname: xiongchengdeMacBook-Pro.local
+

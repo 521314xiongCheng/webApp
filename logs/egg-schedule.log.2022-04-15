@@ -1,0 +1,21 @@
+2022-04-13 09:40:04,354 INFO 31739 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-04-13 09:40:04,354 INFO 31739 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-04-13 09:40:04,354 INFO 31739 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-04-13 10:10:23,134 INFO 925 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65976897ms at 2022-04-14 04:30:00.029
+2022-04-13 10:10:23,108 INFO 31739 [Job#1649815823099698852853309161] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2022-04-13 10:10:23,161 INFO 31739 [Job#1649815823099698852853309161] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 50ms. 
+2022-04-15 10:46:41,857 INFO 7226 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-04-15 10:46:41,857 INFO 7226 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-04-15 10:46:41,857 INFO 7226 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-04-15 10:46:42,202 INFO 7224 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 63797820ms at 2022-04-16 04:30:00.021
+2022-04-15 10:46:42,203 INFO 7224 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 47597797ms at 2022-04-16 00:00:00.000
+2022-04-15 10:46:42,203 INFO 7224 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 47598797ms at 2022-04-16 00:00:01.000
+2022-04-15 11:09:22,759 INFO 9945 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-04-15 11:09:22,759 INFO 9945 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-04-15 11:09:22,759 INFO 9945 [egg-schedule]: register schedule /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-04-16 06:25:14,930 INFO 7224 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 63285087ms at 2022-04-17 00:00:00.016
+2022-04-16 06:25:14,940 INFO 9945 [Job#165006151490564629276961671] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2022-04-16 06:25:15,018 INFO 9945 [Job#165006151490564629276961671] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 72ms. 
+2022-04-16 06:25:15,890 INFO 9945 [Job#1650061515880646299991613331] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2022-04-16 06:25:15,921 INFO 9945 [Job#1650061515880646299991613331] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 28ms. 
+2022-04-16 06:25:15,897 INFO 7224 [Timer] /Users/xiongcheng/azure/MyBizIntouch/Intouch-Coach-App/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 63285119ms at 2022-04-17 00:00:01.016
